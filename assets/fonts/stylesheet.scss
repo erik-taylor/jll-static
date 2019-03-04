@@ -42,7 +42,8 @@
 
 @font-face {
     font-family: 'Signpainter';
-    src: url('/assets/fonts/SignPainterHouseScriptRegular.ttf') format('ttf');
+    src: url('/assets/fonts/SignPainterHouseScriptRegular.ttf') format('ttf'),
+         url('/assets/fonts/SignPainterHouseScriptRegular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
