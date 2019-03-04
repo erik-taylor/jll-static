@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "sn_icons";
+	src: url('/assets/iconfont/sn_icons.eot');
+	src: url('/assets/iconfont/sn_icons.eot?#iefix') format('eot'),
+		url('/assets/iconfont/sn_icons.woff') format('woff'),
+		url('/assets/iconfont/sn_icons.ttf') format('truetype'),
+		url('/assets/iconfont/sn_icons.svg#sn_icons') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "sn_icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == enduro-wide {
+		$char: "\E001";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-enduro-wide {
+	@include icon(enduro-wide);
+}

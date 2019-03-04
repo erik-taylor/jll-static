@@ -1,0 +1,3 @@
+define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<footer>\n  <div class=\"spacer\"></div>    \n	<p><small>&copy; <span id=\"copyright\"><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> All Rights Reserved</small></p>  \n  <script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n	<div class=\"elfsight-app-47e27810-aad6-407b-973a-30d546babc40\"></div>\n\n\n</footer>\n\n\n\n";
+},"useData":true}); });

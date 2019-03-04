@@ -1,0 +1,3 @@
+define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<script type=\"text/javascript\" src=\"http://code.jquery.com/jquery-1.11.3.min.js\"></script>\n<script src=\"/assets/js/jquery.vmap.min.js\"></script>\n<script src=\"/assets/js/jquery.vmap.world.js\"></script>\n<script src=\"/assets/js/jquery.vmap.sampledata.js\"></script>";
+},"useData":true}); });
