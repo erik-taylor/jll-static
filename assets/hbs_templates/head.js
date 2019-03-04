@@ -12,16 +12,16 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":fu
 },"7":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "https://www.jetlagleah.com"
+  return "//www.jetlagleah.com"
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.meta_data : depth0)) != null ? stack1.meta_image : stack1), depth0));
 },"9":function(container,depth0,helpers,partials,data) {
-    return "https://www.jetlagleah.com/remote/direct_uploads/jetlagleah_donuts.jpg";
+    return "//www.jetlagleah.com/remote/direct_uploads/jetlagleah_donuts.jpg";
 },"11":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.meta_data : depth0)) != null ? stack1.meta_url : stack1), depth0));
 },"13":function(container,depth0,helpers,partials,data) {
-    return "https://www.jetlagleah.com/";
+    return "//www.jetlagleah.com/";
 },"15":function(container,depth0,helpers,partials,data) {
     return "background-image: url("
     + container.escapeExpression(container.lambda((depth0 != null ? depth0.cover : depth0), depth0))
