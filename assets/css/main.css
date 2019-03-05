@@ -596,7 +596,8 @@ a:hover {
 
 @media (max-width: 500px) {
   body {
-    background-position: left; }
+    background-position: left;
+    background-size: cover;}
   .anAuthorCard {
     padding: 1rem; }
   .anAuthorCard-anAvatar {
