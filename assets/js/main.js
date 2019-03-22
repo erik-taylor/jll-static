@@ -1,13 +1,7 @@
-require.config({
-	baseUrl: '/assets/',
-
-	paths: {
-		// 'jquery': 'vendor/jquery/dist/jquery.min',
-	},
-})
-
-require(['jquery'], function ($) {
-	$(document).ready(function () {
-		console.log('requirejs ready to use')
-	})
-})
+window.onload = function() {
+	lax.setup() // init
+	  
+	document.addEventListener('scroll', function(e) {
+	  lax.update(window.scrollY) // update every scroll
+	}, false)
+}
