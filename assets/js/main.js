@@ -1,9 +1,11 @@
 window.onload = function() {
 	lax.setup() // init
-	  
-	document.addEventListener('scroll', function(e) {
-	  lax.update(window.scrollY) // update every scroll
-	}, false)
 
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
 	var bLazy = new Blazy() //bLazy init
 }

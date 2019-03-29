@@ -36,7 +36,7 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":fu
     + "</a></li>\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=helpers.blockHelperMissing, buffer = 
-  "<header data-lax-opacity=\"80 1, 140 0.5, 200 0\" class=\"header-wrapper\">\n    <div class=\"inner\">\n        <a href=\"/\">\n            <span class=\"siteName\">"
+  "<header data-lax-opacity=\"80 1, 140 0.5, 200 0\" class=\"header-wrapper lax\">\n    <div class=\"inner\">\n        <a href=\"/\">\n            <span class=\"siteName\">"
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.site_name : stack1), depth0))
     + "</span>\n        </a>\n    </div>\n    <div class=\"nav-wrapper\">\n        <div class=\"inner\">\n            <nav>            \n                <ul class=\"nav-list\">                \n                    \n                    <li><a href=\"/travel-tips/\">Travel Tips</a></li>\n                    <li><a href=\"/adventures/\">Adventures</a></li>\n"
     + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.show_archive_link : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
