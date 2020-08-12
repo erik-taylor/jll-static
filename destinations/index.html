@@ -60,7 +60,7 @@
 	opacity: 0.0
 	}
 	.inner {
-	width: 45em;
+	width: 100%;
 	}
 	</style>
 	
@@ -68,7 +68,7 @@
 
     <body class="blog b-lazy" data-src="/remote/direct_uploads/1551563412_DSC_0207.JPG">
     	<header data-lax-opacity="80 1, 140 0.5, 200 0" class="header-wrapper lax">
-    	    <div class="inner">
+    	    <div class="inner logoInner">
     	        <a href="/">
     	            <span class="siteName">Jetlag Leah</span>
     	        </a>
@@ -77,13 +77,16 @@
     	        <div class="inner">
     	            <nav>            
     	                <ul class="nav-list">                
-    	                    <li><a href="/travel-tips/">Travel Tips</a></li>
-    	                    <li><a href="/adventures/">Adventures</a></li>
-    	                    <li><a href="/weekend-trips/">Weekend Trips</a></li>
+    	                    <li class="ddItem">
+    	                        <a href="/adventures/">Adventures</a>
+    	                        <ul class="ddList">
+    	                            <li><a href="/tips/">-Tips</a></li><br/>
+    	                            <li><a href="/trips/">-Trips</a></li>
+    	                        </ul>
+    	                    </li>
+    	                    <li><a href="/sustainability/">Sustainability</a></li>
     	                    <li><a href="/about/">About</a></li>
     	                    <li><a href="/contact/">Contact</a></li>
-    	                    <li><a href="/destinations/">Destinations</a></li>
-    	                    <li><a href="/posts/">All Posts</a></li>
     	                </ul>
     	            </nav>
     	        </div>
@@ -99,13 +102,16 @@
     	
     	            
     	            <ul id="menu">
-    	                <li><a href="/travel-tips/">Travel Tips</a></li>
-    	                <li><a href="/adventures/">Adventures</a></li>
-    	                <li><a href="/weekend-trips/">Weekend Trips</a></li>
+    	                <li>
+    	                    <a href="/adventures/">Adventures</a>
+    	                    <ul>
+    	                        <li><a href="/tips/">-Tips</a></li>
+    	                        <li><a href="/trips/">-Trips</a></li>
+    	                    </ul>
+    	                </li>
+    	                <li><a href="/sustainability/">Sustainability</a></li>
     	                <li><a href="/about/">About</a></li>
     	                <li><a href="/contact/">Contact</a></li>
-    	                <li><a href="/destinations/">Destinations</a></li>
-    	                <li><a href="/posts/">All Posts</a></li>
     	            </ul>
     	        </div>
     	    </nav>

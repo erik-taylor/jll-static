@@ -60,7 +60,7 @@
 	opacity: 0.0
 	}
 	.inner {
-	width: 45em;
+	width: 100%;
 	}
 	</style>
 	
@@ -68,7 +68,7 @@
 
     <body>
     	<header data-lax-opacity="80 1, 140 0.5, 200 0" class="header-wrapper lax">
-    	    <div class="inner">
+    	    <div class="inner logoInner">
     	        <a href="/">
     	            <span class="siteName">Jetlag Leah</span>
     	        </a>
@@ -77,13 +77,16 @@
     	        <div class="inner">
     	            <nav>            
     	                <ul class="nav-list">                
-    	                    <li><a href="/travel-tips/">Travel Tips</a></li>
-    	                    <li><a href="/adventures/">Adventures</a></li>
-    	                    <li><a href="/weekend-trips/">Weekend Trips</a></li>
+    	                    <li class="ddItem">
+    	                        <a href="/adventures/">Adventures</a>
+    	                        <ul class="ddList">
+    	                            <li><a href="/tips/">-Tips</a></li><br/>
+    	                            <li><a href="/trips/">-Trips</a></li>
+    	                        </ul>
+    	                    </li>
+    	                    <li><a href="/sustainability/">Sustainability</a></li>
     	                    <li><a href="/about/">About</a></li>
     	                    <li><a href="/contact/">Contact</a></li>
-    	                    <li><a href="/destinations/">Destinations</a></li>
-    	                    <li><a href="/posts/">All Posts</a></li>
     	                </ul>
     	            </nav>
     	        </div>
@@ -99,13 +102,16 @@
     	
     	            
     	            <ul id="menu">
-    	                <li><a href="/travel-tips/">Travel Tips</a></li>
-    	                <li><a href="/adventures/">Adventures</a></li>
-    	                <li><a href="/weekend-trips/">Weekend Trips</a></li>
+    	                <li>
+    	                    <a href="/adventures/">Adventures</a>
+    	                    <ul>
+    	                        <li><a href="/tips/">-Tips</a></li>
+    	                        <li><a href="/trips/">-Trips</a></li>
+    	                    </ul>
+    	                </li>
+    	                <li><a href="/sustainability/">Sustainability</a></li>
     	                <li><a href="/about/">About</a></li>
     	                <li><a href="/contact/">Contact</a></li>
-    	                <li><a href="/destinations/">Destinations</a></li>
-    	                <li><a href="/posts/">All Posts</a></li>
     	            </ul>
     	        </div>
     	    </nav>
@@ -116,6 +122,21 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<article class="aTeaser">
+					<a href="/blog/10-super-simple-sustainable-swaps-to-reduce-your-waste/">
+						<img class="aBlogCover b-lazy" src="/remote/direct_uploads/1596950363_plastic.JPG" data-src="/remote/direct_uploads/1596950363_plastic.JPG" />
+					</a>
+					<h2 class="blog-anArticle">
+						<a href="/blog/10-super-simple-sustainable-swaps-to-reduce-your-waste/">10 Super-Simple Sustainable Swaps to Reduce your Waste</a>
+					</h2>
+					<p>Sustainability has been a major trend lately. If you are unaware, sustainability is basically a lifestyle based around the minimal use of the earth’s resources and producing minimal waste. In this lifestyle, you do your best to incorporate reusable products as much as possible and avoid single-use items. It can be intimidating to some people who believe it to be an all or nothing movement or that it is all about aesthetics and expensive alternatives, but it doesn&#39;t have to be.</p>
+
+					<time>Wednesday, 12 August, 2020</time>
+					<b><a href="/blog/10-super-simple-sustainable-swaps-to-reduce-your-waste">Read more…</a></b>
+					<div style="clear: both;"></div>
+				</article>
+			</div>
 			<div class="col-xs-12 col-md-4">
 				<article class="aTeaser">
 					<a href="/blog/weekend-guide-colorado-springs/">

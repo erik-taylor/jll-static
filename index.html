@@ -60,7 +60,7 @@
 	opacity: 0.0
 	}
 	.inner {
-	width: 45em;
+	width: 100%;
 	}
 	</style>
 	
@@ -68,7 +68,7 @@
 
     <body>
     	<header data-lax-opacity="80 1, 140 0.5, 200 0" class="header-wrapper lax">
-    	    <div class="inner">
+    	    <div class="inner logoInner">
     	        <a href="/">
     	            <span class="siteName">Jetlag Leah</span>
     	        </a>
@@ -77,13 +77,16 @@
     	        <div class="inner">
     	            <nav>            
     	                <ul class="nav-list">                
-    	                    <li><a href="/travel-tips/">Travel Tips</a></li>
-    	                    <li><a href="/adventures/">Adventures</a></li>
-    	                    <li><a href="/weekend-trips/">Weekend Trips</a></li>
+    	                    <li class="ddItem">
+    	                        <a href="/adventures/">Adventures</a>
+    	                        <ul class="ddList">
+    	                            <li><a href="/tips/">-Tips</a></li><br/>
+    	                            <li><a href="/trips/">-Trips</a></li>
+    	                        </ul>
+    	                    </li>
+    	                    <li><a href="/sustainability/">Sustainability</a></li>
     	                    <li><a href="/about/">About</a></li>
     	                    <li><a href="/contact/">Contact</a></li>
-    	                    <li><a href="/destinations/">Destinations</a></li>
-    	                    <li><a href="/posts/">All Posts</a></li>
     	                </ul>
     	            </nav>
     	        </div>
@@ -99,13 +102,16 @@
     	
     	            
     	            <ul id="menu">
-    	                <li><a href="/travel-tips/">Travel Tips</a></li>
-    	                <li><a href="/adventures/">Adventures</a></li>
-    	                <li><a href="/weekend-trips/">Weekend Trips</a></li>
+    	                <li>
+    	                    <a href="/adventures/">Adventures</a>
+    	                    <ul>
+    	                        <li><a href="/tips/">-Tips</a></li>
+    	                        <li><a href="/trips/">-Trips</a></li>
+    	                    </ul>
+    	                </li>
+    	                <li><a href="/sustainability/">Sustainability</a></li>
     	                <li><a href="/about/">About</a></li>
     	                <li><a href="/contact/">Contact</a></li>
-    	                <li><a href="/destinations/">Destinations</a></li>
-    	                <li><a href="/posts/">All Posts</a></li>
     	            </ul>
     	        </div>
     	    </nav>
@@ -119,6 +125,19 @@
     
     		<article class="featured-articles-section">
     
+    			<div class="row">
+    				<div class="col-xs-12 col-md-6">					
+    					<a href="/blog/10-super-simple-sustainable-swaps-to-reduce-your-waste">
+    						<img class="featured-articles-img b-lazy" src="/remote/direct_uploads/1596950363_plastic.JPG" data-src="/remote/direct_uploads/1596950363_plastic.JPG" alt="10 Super-Simple Sustainable Swaps to Reduce your Waste - image" />
+    					</a>
+    				</div>
+    				<div class="col-xs-12 col-md-6">
+    					<a class="title-link" href="/blog/10-super-simple-sustainable-swaps-to-reduce-your-waste"><h2 class="home-blog-anArticle">10 Super-Simple Sustainable Swaps to Reduce your Waste</h2></a>
+    					<p>We don&#x27;t need a handful of people doing zero waste perfectly. We need millions of people doing it imperfectly. -Anne Marie Bonneau</p>
+    					<a href="/blog/10-super-simple-sustainable-swaps-to-reduce-your-waste">READ MORE</a>
+    				</div>			
+    			</div>	
+    			<hr class="hr">
     			<div class="row">
     				<div class="col-xs-12 col-md-6">					
     					<a href="/blog/weekend-guide-colorado-springs">
@@ -145,19 +164,6 @@
     				</div>			
     			</div>	
     			<hr class="hr">
-    			<div class="row">
-    				<div class="col-xs-12 col-md-6">					
-    					<a href="/blog/best-reef-friendly-and-cruelty-free-sunscreens">
-    						<img class="featured-articles-img b-lazy" src="/remote/direct_uploads/1564954020_DSC_0289.jpg" data-src="/remote/direct_uploads/1564954020_DSC_0289.jpg" alt="Best Reef Friendly and Cruelty Free Sunscreens - image" />
-    					</a>
-    				</div>
-    				<div class="col-xs-12 col-md-6">
-    					<a class="title-link" href="/blog/best-reef-friendly-and-cruelty-free-sunscreens"><h2 class="home-blog-anArticle">Best Reef Friendly and Cruelty Free Sunscreens</h2></a>
-    					<p>I spent half the summer and almost $150 trying to find the best reef friendly and cruelty free sunscreen so you don’t have to.</p>
-    					<a href="/blog/best-reef-friendly-and-cruelty-free-sunscreens">READ MORE</a>
-    				</div>			
-    			</div>	
-    			<hr class="hr">
     		</article>
     
     		<div class="spacer"></div>
@@ -165,9 +171,9 @@
     		<div data-lax-preset="blurIn" class="row lax">
     			<div class="col-xs-12 author-wrapper">
     				<div class="anAuthorCard home-h1">
-    					<div class="anAuthorCard-anAvatar" style="background-image: url(/remote/direct_uploads/jetlagleah_donuts.jpg);"></div>
+    					<div class="anAuthorCard-anAvatar" style="background-image: url(/remote/direct_uploads/1596949320_leah_yellow_background.JPG);"></div>
     					<h2>Jetlag Leah</h2>
-    					<p>Hello there, I’m Leah, a 20-something living in San Diego, CA with a goal of traveling as much as my job will allow. I believe life is always a little more exciting when I have a trip to look forward to, even if it is just a weekend stay in the next town over. Read more <a href="/about/" style="font-weight:bold">About Me</a>.</p>
+    					<p>Hello there, I’m Leah! A travel and sustainability blogger living in San Diego, CA with a goal to see the world, while living a low impact lifestyle. These may seem like contrasting goals, but it absolutely can be done and I want to show you how! Read more <a href="/about/" style="font-weight:bold">About Me</a>.</p>
     				</div>					
     			</div>
     		</div>
